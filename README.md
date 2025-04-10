@@ -56,3 +56,5 @@ cliques, cycles, cyclically symmetric graphs, cyclic unions, and random directed
 
 This README file was created on August 24, 2023, as part of the original commit to
 the CTLN-Basic-2.0 repository.
+
+Update on April 10, 2025 -- a new (backwards compatible) version of graph2net.m was uploaded. This new version enables the creation of generalized CTLNs, where each neuron has its own eps_i, delta_i governing the weights of its outgoing edges and non-edges.
