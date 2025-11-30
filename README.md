@@ -4,7 +4,8 @@ This is a package of Matlab code to run simulations for the CTLN model introduce
 
 Diversity of emergent dynamics in competitive threshold-linear networks.
 Katherine Morrison, Anda Degeratu, Vladimir Itskov, Carina Curto.
-Available at https://arxiv.org/abs/1605.04463
+Published version is in SIAM J. of Applied Dynamical Systems, Vol 23(1), 2024.
+Also available at https://arxiv.org/abs/1605.04463
 
 This is a bare bones package to run simple simulations and make plots using the CTLN model. 
 All figures from the above paper (version 3+) can be reproduced using this code.
@@ -58,3 +59,5 @@ This README file was created on August 24, 2023, as part of the original commit 
 the CTLN-Basic-2.0 repository.
 
 Update on April 10, 2025 -- a new (backwards compatible) version of graph2net.m was uploaded. This new version enables the creation of generalized CTLNs, where each neuron has its own eps_i, delta_i governing the weights of its outgoing edges and non-edges.
+
+Update on November 30, 2025 -- uploaded get_fixedpt.m and get_FP.m, which compute fixed points for general TLNs (W,b).
